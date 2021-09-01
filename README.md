@@ -7,27 +7,25 @@ This is a Python script that automates the process of adding keywords to each pa
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 
-#### Make sure you have python installed on your machine. If not, follow this link [Python Installation](https://realpython.com/installing-python/)
+#### Make sure you have python installed on your machine, minimun version is 3.7.1. If not, follow this link [Python Installation](https://realpython.com/installing-python/)
 ```bash
 python --version
 ```
-#### Check your python version. Minimun version is 3.7.1.
-```bash
-python --version
-```
+
 #### Create a virtual environment and activcate it.
 ```bash
 python3 -m venv
 
 source venv/bin/activate
 ```
-#### When inside your venv, install these packages (the rest is default packages and already installed):
 
+#### When inside your venv, install these packages (the rest is default packages and already installed):
 ```bash
 pip install pandas
 
 pip install PyYAML
 ```
+
 #### Now you should be ready to go!
 
 ## Usage
