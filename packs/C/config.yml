@@ -1,18 +1,21 @@
-authors:
-- New Relic
-description: General-purpose, procedural, imperative computer programming language
-  developed in 1972 by Dennis M. Ritchie at the Bell Telephone.
-documentation:
-- description: General-purpose, procedural, imperative computer programming language
-    developed in 1972 by Dennis M. Ritchie at the Bell Telephone.
-  name: C installation docs
-  url: https://docs.newrelic.com/docs/agents/c-sdk
-icon: icon.svg
 id: 7fa19c5e-b97b-4c4d-954e-bc209afec3ba
-keywords: apm, language agent
-level: Community
-logo: logo.svg
 name: c
-summary: General-purpose, procedural, imperative computer programming language developed
-  in 1972 by Dennis M. Ritchie at the Bell Telephone.
+description: >-
+  General-purpose, procedural, imperative computer programming language
+  developed in 1972 by Dennis M. Ritchie at the Bell Telephone.
+summary: >-
+  General-purpose, procedural, imperative computer programming language
+  developed in 1972 by Dennis M. Ritchie at the Bell Telephone.
+icon: icon.svg
+logo: logo.svg
+level: Community
+authors:
+  - New Relic
 title: C
+documentation:
+  - name: C installation docs
+    description: >-
+      General-purpose, procedural, imperative computer programming language
+      developed in 1972 by Dennis M. Ritchie at the Bell Telephone.
+    url: https://docs.newrelic.com/docs/agents/c-sdk
+keywords: apm, language agent

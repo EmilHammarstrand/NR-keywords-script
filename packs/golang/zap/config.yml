@@ -1,15 +1,16 @@
-authors:
-- New Relic
-description: Go-based logging tool for leveled logging across your applications.
-documentation:
-- description: Go-based logging tool for leveled logging across your applications.
-  name: Zap installation docs
-  url: https://docs.newrelic.com/docs/agents/go-agent/get-started/go-agent-compatibility-requirements
-icon: ''
 id: f49bc8d7-8dee-4096-974f-109eb6cbb058
-keywords: apm, golang
-level: Community
-logo: ''
 name: zap
+description: Go-based logging tool for leveled logging across your applications.
 summary: Go-based logging tool for leveled logging across your applications.
+icon: ''
+logo: ''
+level: Community
+authors:
+  - New Relic
 title: Zap
+documentation:
+  - name: Zap installation docs
+    description: Go-based logging tool for leveled logging across your applications.
+    url: >-
+      https://docs.newrelic.com/docs/agents/go-agent/get-started/go-agent-compatibility-requirements
+keywords: apm, golang

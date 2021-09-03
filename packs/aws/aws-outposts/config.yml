@@ -1,18 +1,22 @@
-authors:
-- New Relic
-description: An introduction to AWS integrations on New Relic One. Use the Amazon
-  CloudWatch API to obtain metrics from the AWS services you monitor.
-documentation:
-- description: An introduction to AWS integrations on New Relic One. Use the Amazon
-    CloudWatch API to obtain metrics from the AWS services you monitor.
-  name: AWS Outposts installation docs
-  url: https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/introduction-aws-integrations
-icon: ''
 id: 30a0b609-de2b-411f-a95a-f3083df738dd
-keywords: aws, amazon web services
-level: Community
-logo: ''
 name: aws-outposts
-summary: An introduction to AWS integrations on New Relic One. Use the Amazon CloudWatch
-  API to obtain metrics from the AWS services you monitor.
+description: >-
+  An introduction to AWS integrations on New Relic One. Use the Amazon
+  CloudWatch API to obtain metrics from the AWS services you monitor.
+summary: >-
+  An introduction to AWS integrations on New Relic One. Use the Amazon
+  CloudWatch API to obtain metrics from the AWS services you monitor.
+icon: ''
+logo: ''
+level: Community
+authors:
+  - New Relic
 title: AWS Outposts
+documentation:
+  - name: AWS Outposts installation docs
+    description: >-
+      An introduction to AWS integrations on New Relic One. Use the Amazon
+      CloudWatch API to obtain metrics from the AWS services you monitor.
+    url: >-
+      https://docs.newrelic.com/docs/integrations/amazon-integrations/get-started/introduction-aws-integrations
+keywords: aws, amazon web services

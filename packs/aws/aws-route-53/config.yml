@@ -1,18 +1,22 @@
-authors:
-- New Relic
-description: "Register domain names, route Internet traffic to the appropriate resources,\
-  \ and check the health of your web app\u2019s resources."
-documentation:
-- description: "Register domain names, route Internet traffic to the appropriate resources,\
-    \ and check the health of your web app\u2019s resources."
-  name: AWS Route 53 installation docs
-  url: https://docs.newrelic.com/docs/integrations/amazon-integrations/aws-integrations-list/aws-route-53-monitoring-integration
-icon: icon.svg
 id: bf043e5a-213c-411e-8eea-4e386a29a088
-keywords: aws, amazon web services, networking
-level: Community
-logo: logo.svg
 name: aws-route-53
-summary: "Register domain names, route Internet traffic to the appropriate resources,\
-  \ and check the health of your web app\u2019s resources."
+description: >-
+  Register domain names, route Internet traffic to the appropriate resources,
+  and check the health of your web app’s resources.
+summary: >-
+  Register domain names, route Internet traffic to the appropriate resources,
+  and check the health of your web app’s resources.
+icon: icon.svg
+logo: logo.svg
+level: Community
+authors:
+  - New Relic
 title: AWS Route 53
+documentation:
+  - name: AWS Route 53 installation docs
+    description: >-
+      Register domain names, route Internet traffic to the appropriate
+      resources, and check the health of your web app’s resources.
+    url: >-
+      https://docs.newrelic.com/docs/integrations/amazon-integrations/aws-integrations-list/aws-route-53-monitoring-integration
+keywords: aws, amazon web services, networking
