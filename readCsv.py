@@ -1,6 +1,5 @@
 import csv
 import pandas
-#import yaml
 from ruamel.yaml import YAML
 import os
 from os import path
@@ -23,11 +22,7 @@ for index, row in df.iterrows(): # Iterates the csv file.
         with open(f'packs/{pack_name}/config.yml', 'r+') as outfile: # Opens packs folder based on variable value.
             documents = yaml.load(outfile)
             documents['keywords'] = pack_keywords
-            #for data in documents: # Iterate all config.yml
-            #    data['keywords'] = pack_keywords # Update the keywords if changes was made in .csv file.
             outfile.seek(0) # Move position in outfile to front. 
-            #yaml.dump_all(documents, outfile, default_flow_style=False, sort_keys=False)
-            #outfile.truncate() # Discards old keywords data.
             yaml.indent(sequence=4, offset=2)
             yaml.dump(documents, outfile)
         outfile.close()
