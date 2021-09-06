@@ -12,18 +12,16 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 python --version
 ```
 
-#### Create a virtual environment and activcate it.
+#### Create a virtual environment and activcate it
 ```bash
 python3 -m venv
 
 source venv/bin/activate
 ```
 
-#### When inside your venv, install these packages (the rest is default packages and already installed):
+#### When inside your venv, install the requirements
 ```bash
-pip install pandas
-
-pip install PyYAML
+pip install -r requirements.txt
 ```
 
 #### Now you should be ready to go!
@@ -42,7 +40,7 @@ Run the script from the terminal (make sure you're inside your virtual env):
 ```bash
 python3 readCsv.py
 ```
-If the script succeded, output in terminal will be:
+If the script succeded, output in terminal will be
 
 ```bash
 NewPack was made!
