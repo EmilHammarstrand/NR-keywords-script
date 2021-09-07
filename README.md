@@ -28,24 +28,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-
-#### Want to add a new pack or update the current keywords?
-
-Head into the NR_Keywords.csv file. At the bottom, add the new pack as __Name;keywords, keywords__
-```csv
-NewPack;newpack, apm
-```
-Run the script from the terminal (make sure you're inside your virtual env):
-
+1. Change or add keywords in the NR_Keywords.csv file
+2. Run the python script
 ```bash
 python3 readCsv.py
 ```
-If the script succeded, output in terminal will be
-
-```bash
-NewPack was made!
-```
-
-If you updated a keyword and succeded, there will be no output.
-
-You will then find the new pack inside packs/ folder in the root.
+See your changes inside the packs/ foler.
